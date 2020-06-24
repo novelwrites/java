@@ -1,7 +1,19 @@
 package udemy_exercises.bank;
 
+import java.util.ArrayList;
+
 public class Bank {
-    
+
+    private String bankName;
+    ArrayList<Branch> branches;
+
+
+    public Bank(String bankName){
+        this.bankName=bankName;
+        this.branches=new ArrayList<Branch>();
+
+
+    }
 }
 
 
