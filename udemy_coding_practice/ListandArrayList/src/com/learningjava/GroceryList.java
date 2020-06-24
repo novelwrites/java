@@ -34,6 +34,18 @@ public class GroceryList {
         //Cheese //Will automatically shift array elements when an item is removed
         //Bread
 
+    }
 
+    public String findItem(String searchItem) {   //Finds specific item in grocery list using built in java function
+
+        //boolean exists = groceryList.contains(searchItem);
+
+        int position = groceryList.indexOf(searchItem);
+        if(position>=0) {
+
+            return groceryList.get(position);
+        }
+
+        return null;
     }
 }
