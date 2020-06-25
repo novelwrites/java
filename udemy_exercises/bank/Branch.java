@@ -18,7 +18,10 @@ public boolean addNewCustomer (String customerName, Double initialDeposit) {
         customers.add(new Customer(customerName, initialDeposit)); //don't want to double add a customer - if customer doesn't exist, we add new customer (instantiating customer)
     return true;
 }
-public boolean addNewTransaction (String customerName, )//existing customer - adding a new deposit to his account
+public boolean addNewTransaction (String customerName, pizza) {//existing customer - adding a new deposit to his account
+     
+
+}
     }
 
     public Customer findCustomer(String customerName) { //created to find customer name - will use method from customer class /do this to see if customer exists before we can add new customer
