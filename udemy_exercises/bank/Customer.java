@@ -8,7 +8,8 @@ public class Customer { //class is blueprint to create the object - each class h
     ArrayList<Double> transactions; //Double is a data type that works well because of decimal places which is good for money
 
     public Customer(String customerName, Double pizza){  //Constructor for the class - that's how we create objects - we are creating Customer; each new account needs a new transaction
-        //everytime we call the constructor we are instantiating the customername and transaction for each new customer; each customer needs name and initial deposit (pizza)
+        //everytime we call the constructor we are instantiating the customername and transaction for each new customer; each customer needs name and initial deposit (pizza) - these are a
+        // actually placeholders for use in class branch we will have arguments because that is where we have values if the logic conditions are met in the method
         this.customerName=customerName;
         this.transactions=new ArrayList<Double>();
         addTransaction(pizza); //Adding initial deposit to transaction list but also available for future transactions
