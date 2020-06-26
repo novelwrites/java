@@ -18,8 +18,9 @@ public class Hello { //body of the class Hello
         System.out.println("My last variable =  " + myLastOne);
 
       //type sout to get System.out.println()
-        
+
         primitiveChallenge();
+        operatorPractice();
 
 
     }
@@ -32,9 +33,28 @@ public class Hello { //body of the class Hello
         long fourthNumber = ((firstNumber + secondNumber + thirdNumber) * 10) + 50000;
         System.out.println("The answer = " + fourthNumber);
 
-
     }
 
+    public static void operatorPractice() {
+
+        double result = 1 + 2;
+        double previousResult = result;
+        result = result - 1;
+        System.out.println("result = " + result);
+        System.out.println("previousResult = " + previousResult);
+        result++;
+        System.out.println("result++ = " + result);
+        result *= 10;
+        System.out.println("result*= = " + result);
+        result--;
+        System.out.println("result-- = " + result);
+        result /= 4;
+        System.out.println("result/ = " + result);
+
+
+
+
+    }
 
 }
 
