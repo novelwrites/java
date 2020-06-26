@@ -21,6 +21,8 @@ public class Hello { //body of the class Hello
 
         primitiveChallenge();
         operatorPractice();
+        ifThenPractice();
+        testKnowledge();
 
 
     }
@@ -51,11 +53,48 @@ public class Hello { //body of the class Hello
         result /= 4;
         System.out.println("result/ = " + result);
 
-
-
-
     }
 
+    public static void ifThenPractice() {
+
+        boolean isAlien = true;
+        if (isAlien == false) {
+            System.out.println("There are no aliens!");
+        }
+        boolean bicyclingToday = true;
+        if (bicyclingToday == true) {
+            System.out.println("We are bicycling today!");
+        }
+        boolean rainRightNow = false;
+        if(rainRightNow == false) {
+            System.out.println("It is not raining right now.");
+        }
+        boolean husbandHandsome = true;
+        if(husbandHandsome==true) {
+            System.out.println("My husband is very handsome!");
+        }
+
+        boolean frenchFriesGreasy = true;
+        if (frenchFriesGreasy==true) {
+            System.out.println("Frenchfries are greasy.");
+            System.out.println("But I like them anyway.");
+    }
+    }
+
+    public static void testKnowledge() {
+
+        int newNum = 6;
+        int newNum2 = 36;
+        int multiNum = newNum * newNum2;
+
+        System.out.println("newnum * newNum2 = " + multiNum);
+
+        boolean horseBackRiding = false;
+        if(horseBackRiding == false) {
+            System.out.println("I wish I could horsebackride today.");
+            System.out.println("newnum * newNum2 = " + multiNum);
+        }
+    }
 }
 
 
