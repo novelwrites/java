@@ -28,6 +28,9 @@ public class Hello { //body of the class Hello
         loveMyPhil();
         calculateScore(myFirstNumber);
         tryIfThenElse();
+        morePractice(myThirdNumber, myTotal);
+        morePractice(300, 500);
+
 
 
 
@@ -200,7 +203,16 @@ public class Hello { //body of the class Hello
 
     public static void calculateScore(int myFirstNumber) {
         if(myFirstNumber > 1) {
-            System.out.println("myFirstNumber is greater than 1");
+            System.out.println("myFirstNumber equals " +  myFirstNumber);
+        }
+
+    }
+    //when you are passing the parameters to the function you need to name the data type
+    // but don't need to when invoking (calling) the function
+    public static void morePractice(int myThirdNumber, int myTotal) {
+        int anotherNumber = 150;
+        if ((myThirdNumber + myTotal + anotherNumber) > 23) {
+            System.out.println(myThirdNumber + "," + " " + myTotal + "," + " " + anotherNumber);
         }
 
     }
