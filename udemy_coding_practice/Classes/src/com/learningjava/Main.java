@@ -37,7 +37,7 @@ public class Main {
         //Put dot after porsche and will see a bunch of functions that are inherited and already
         // available. The Car Class (and any new Class you create) has inherited these from a
         // base java class. It will also show the state variables from Class Car that are public,
-        //byt can't show private ones.
+        //but can't show private ones.
         //porsche.model = "Carrera"; //For our object porsche we defined the state (field) model to
         // be Carrera so we have defined the type.
         //lumina.engine = "V6";

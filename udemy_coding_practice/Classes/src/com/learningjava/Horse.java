@@ -16,7 +16,7 @@ public class Horse {
         }
     }
         public String getColor() { //This is a method that can be called elsewhere to return the current color.
-            return this.color;
+            return color;
 
 
         }

@@ -56,7 +56,7 @@ public class Car {
     }
     public String getModel() { //This is a method that can be called elsewhere to return
         //what the current model is.
-        return this.model;
+        return model;
     }
 
 }
